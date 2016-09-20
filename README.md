@@ -3,9 +3,9 @@ Docker Container apt-cacher-ng
 
 
 A simple Ubuntu based container, running apt-cacher-ng to cache apt
-packadges on a host.
-This container will most defintelly need an attached volume on the
-Docker host to persist the dev packadges like so:
+packages on a host.
+This container will most definitely need an attached volume on the
+Docker host to persist the dev packages like so:
 
 `docker run -d -v /host/dir:/var/cache/apt-cacher-ng
 shelleg/apt-cacher-ng:latest`
